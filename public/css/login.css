@@ -1,0 +1,44 @@
+.card {
+  background: #e0e5ec;
+  box-shadow: 
+    -10px -10px 15px #fff, 
+    10px 10px 15px rgba(0,0,0,0.1);
+  border-radius: 20px;
+}
+
+.card-header {
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(145deg, #cacfd9, #e0e5ec);
+  box-shadow: 
+    -5px -5px 10px #fff,
+    5px 5px 10px rgba(0,0,0,0.1);
+}
+
+.form-control {
+  background: #e0e5ec;
+  box-shadow: inset -5px -5px 10px #fff,
+              inset 5px 5px 10px rgba(0,0,0,0.1);
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background: linear-gradient(145deg, #cacfd9, #e0e5ec);
+  box-shadow: 
+    -5px -5px 10px #fff,
+     5px 5px 10px rgba(0,0,0,0.1);
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+  background: #ddd;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #aaa;
+}

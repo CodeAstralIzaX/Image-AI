@@ -1,0 +1,66 @@
+
+.c-parrallax--container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.c-parrallax--title {
+    position: absolute;
+    font-size: 4rem;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-weight: 700;
+    color: rgb(48, 44, 75);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.c-parrallax--item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+
+    background-size: contain;
+    background-position: center;
+}
+
+.c-parrallax--item_1 {
+    background-image: url("https://github.com/vandemaelefelix/parrallax-mouse-effect/blob/development/images/Artboard%20%E2%80%93%201.png?raw=true");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    filter: blur(0.1rem)
+}
+
+.c-parrallax--item_2 {
+    background-image: url('https://github.com/vandemaelefelix/parrallax-mouse-effect/blob/development/images/Artboard%20%E2%80%93%202.png?raw=true');
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    filter: blur(0.2rem)
+}
+
+.c-parrallax--item_3 {
+    background-image: url('https://github.com/vandemaelefelix/parrallax-mouse-effect/blob/development/images/Artboard%20%E2%80%93%203.png?raw=true');
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    filter: blur(0.2rem)
+}
+
+.c-parrallax--item_4 {
+    background-image: url('https://github.com/vandemaelefelix/parrallax-mouse-effect/blob/development/images/Artboard%20%E2%80%93%204.png?raw=true');
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    filter: blur(0.3rem)
+}
+
+.c-parrallax--item_5 {
+    background-image: url('https://github.com/vandemaelefelix/parrallax-mouse-effect/blob/development/images/Artboard%20%E2%80%93%205.png?raw=true');
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    filter: blur(0.3rem)
+}
